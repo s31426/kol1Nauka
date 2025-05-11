@@ -1,7 +1,12 @@
-using Kol1NaukaTesciki;
+using Kol1NaukaTesciki.Services;
 
-var builder = Host.CreateApplicationBuilder(args);
-builder.Services.AddHostedService<Worker>();
+var builder = WebApplication.CreateBuilder(args);
 
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddScoped<IDbService, DbService>();
 var host = builder.Build();
+
+host.MapControllers();
+
 host.Run();

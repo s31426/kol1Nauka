@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kol1NaukaTesciki")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de544708a628b09e894d83d0bc3168f7755b6f2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c13fd6a9009a48a7f866bad058e87486d52479e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kol1NaukaTesciki")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kol1NaukaTesciki")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
